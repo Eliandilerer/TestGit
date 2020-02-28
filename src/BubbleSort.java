@@ -30,7 +30,7 @@ public class BubbleSort {
         {
             for(int j = 0; j < arr.length - i - 1; j++)
             {
-                if(arr[j] > arr[j + 1])
+                if(arr[j] < arr[j + 1])
                 {
                     int tmp = arr[j];
                     arr[j] = arr[j + 1];
